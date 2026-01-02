@@ -17,12 +17,11 @@ I needed a bench power supply to use for my personal projects. Instead of buying
 - **Extra:** 5V standby USB port for microcontrollers.
 
 **Reason of 10A fuse on 12V rail:**
-$$
-\begin{aligned}
-P_{in(max)} &= \frac{P_{out(peak)}}{\eta} = \frac{50W}{0.88} \approx 56.8W \\
-I_{in(max)} &= \frac{P_{in(max)}}{V_{in}} = \frac{56.8W}{12V} \approx 4.73A
-\end{aligned}
-$$
+<br />
+$$P_{in(max)} = \frac{P_{out(peak)}}{\eta} = \frac{50W}{0.88} \approx 56.8W$$
+<br />
+$$I_{in(max)} = \frac{P_{in(max)}}{V_{in}} = \frac{56.8W}{12V} \approx 4.73A$$
+<br />
 With the module drawing ~4.73A at peak, the 10A fuse provides a safe limit while allowing module to work on the same rail.
 
 ## Output Filtering Design
